@@ -1,0 +1,216 @@
+1589930702514	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileFXepJ0"
+1589930703192	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589930703593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589930703593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589930703593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589930703593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589930705766	Marionette	INFO	Listening on port 59982
+1589930705820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=58014dbf-2145-21ce-b306-cfbf4547f4fe, line 1: SyntaxError: expected expression, got '<'
+1589930849828	Marionette	INFO	Stopped listening on port 59982
+1589930859784	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileN1HoIn"
+1589930860318	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589930860628	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589930860629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589930860629	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589930860630	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589930863310	Marionette	INFO	Listening on port 60153
+1589930863402	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=8f2537c5-bd05-8ab4-abbf-86b8bcbc75eb, line 1: SyntaxError: expected expression, got '<'
+1589930926986	Marionette	INFO	Stopped listening on port 60153
+1589931119477	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileeKBRxi"
+1589931120072	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589931120442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589931120442	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589931120443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589931120443	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589931122728	Marionette	INFO	Listening on port 60389
+1589931122763	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=c0a0b716-34ac-f2c1-e6c4-e376ae5c77b3, line 1: SyntaxError: expected expression, got '<'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1589931145131	Marionette	INFO	Stopped listening on port 60389
+1589931245138	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileK8iAcv"
+1589931245760	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589931246121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589931246121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589931246121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589931246121	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589931248404	Marionette	INFO	Listening on port 60539
+1589931248530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=1b1316af-b627-9108-f17c-da1b6fdb9179, line 1: SyntaxError: expected expression, got '<'
+1589931326428	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing permissions: Error processing permissions.8: Value "debugger" must either: must either [must either [be one of ["clipboardRead", "clipboardWrite", "geolocation", "idle", "notifications"], be one of ["bookmarks"], be one of ["find"], be one of ["history"], be one of ["menus.overrideContext"], be one of ["search"], be one of ["topSites"], be one of ["activeTab", "tabs", "tabHide"], be one of ["browserSettings"], be one of ["cookies"], be one of ["downloads", "downloads.open"], be one of ["privacy"], be one of ["webNavigation"], or be one of ["webRequest", "webRequestBlocking"]], be one of ["alarms", "mozillaAddons", "storage", "unlimitedStorage"], be one of ["browsingData"], be one of ["captivePortal"], be one of ["devtools"], be one of ["identity"], be one of ["menus", "contextMenus"], be one of ["normandyAddonStudy"], be one of ["pkcs11"], be one of ["geckoProfiler"], be one of ["sessions"], be one of ["urlbar"], be one of ["contextualIdentities"], be one of ["dns"], be one of ["activityLog"], be one of ["management"], be one of ["networkStatus"], be one of ["proxy"], be one of ["nativeMessaging"], be one of ["telemetry"], be one of ["theme"], or match the pattern /^experiments(\.\w+)+$/], or must either [be one of ["<all_urls>"], must either [match the pattern /^(https?|wss?|file|ftp|\*):\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$/, or match the pattern /^file:\/\/\/.*$/], or match the pattern /^resource:\/\/(\*|\*\.[^*/]+|[^*/]+)\/.*$|^about:/]
+1589931326430	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing version_name: An unexpected property was found in the WebExtension manifest.
+1589931326430	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Warning processing externally_connectable: An unexpected property was found in the WebExtension manifest.
+1589931669357	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileIFq9Oh"
+1589931670014	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589931670395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589931670395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589931670395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589931670395	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589931672594	Marionette	INFO	Listening on port 60770
+1589931672662	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=0727c173-89ac-fe3c-1b1b-b0cd6a9f6744, line 1: SyntaxError: expected expression, got '<'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1589931749277	Marionette	INFO	Stopped listening on port 60539
+1589931757407	Marionette	INFO	Stopped listening on port 60770
+1589931965014	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileKdEooF"
+1589931965590	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589931966019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589931966019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589931966019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589931966019	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589931968129	Marionette	INFO	Listening on port 60951
+1589931968226	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=9786ae0b-7350-f2ae-1e4d-447bcf4c3e37, line 1: SyntaxError: expected expression, got '<'
+1589931993737	Marionette	INFO	Stopped listening on port 60951
+1589932088651	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileIHlgOr"
+1589932089198	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932089510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932089510	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932089511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932089511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932091608	Marionette	INFO	Listening on port 61108
+1589932091639	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=50de4557-5f5a-f2d5-672f-423dfc15fcb3, line 1: SyntaxError: expected expression, got '<'
+1589932131818	Marionette	INFO	Stopped listening on port 61108
+1589932286660	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilecNbAKT"
+1589932287192	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932287491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932287491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932287491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932287491	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932289625	Marionette	INFO	Listening on port 61271
+1589932289666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=b99670f5-b17a-3a66-1ab5-b857ea3c82fe, line 1: SyntaxError: expected expression, got '<'
+1589932322996	Marionette	INFO	Stopped listening on port 61271
+1589932370290	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofiler1eZjU"
+1589932370918	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932371277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932371277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932371277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932371277	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932374191	Marionette	INFO	Listening on port 61449
+1589932374230	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=12ba23ab-601b-e7a0-1cd4-8b0bef0b5c75, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1589932418734	Marionette	INFO	Stopped listening on port 61449
+1589932490853	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileRioszo"
+1589932491405	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932491705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932491705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932491705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932491705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932494022	Marionette	INFO	Listening on port 61632
+1589932494060	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=f402205f-be24-cb19-6ef8-41fdcf3a6e87, line 1: SyntaxError: expected expression, got '<'
+1589932583748	Marionette	INFO	Stopped listening on port 61632
+1589932797991	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilejMpAzr"
+1589932798591	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932798960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932798961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932798961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932798961	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932801120	Marionette	INFO	Listening on port 61810
+1589932801204	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=57a83377-4bb2-5a95-8c7e-89e5f028ad9e, line 1: SyntaxError: expected expression, got '<'
+1589932817930	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilesTY2IG"
+1589932818481	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589932818948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589932818948	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589932818949	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589932818949	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589932820817	Marionette	INFO	Stopped listening on port 61810
+1589932821648	Marionette	INFO	Listening on port 61959
+1589932821671	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=cd682c05-3467-2d3f-e768-9369cb6dcf9e, line 1: SyntaxError: expected expression, got '<'
+1589932857062	Marionette	INFO	Stopped listening on port 61959
+1589935097809	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilezj5Hgp"
+1589935098624	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589935098954	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589935098955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589935098955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589935098955	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589935101013	Marionette	INFO	Listening on port 62531
+1589935101114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=a69ef72d-b8ad-2a12-9647-f678ce8d6cd6, line 1: SyntaxError: expected expression, got '<'
+1589935112636	Marionette	INFO	Stopped listening on port 62531
+1589935970862	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilefV0Xqj"
+1589935971802	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589935972139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589935972139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589935972139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589935972139	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589935974496	Marionette	INFO	Listening on port 62987
+1589935974600	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=0651db25-71db-78da-9dfb-76f7ef4701a4, line 1: SyntaxError: expected expression, got '<'
+1589936000577	Marionette	INFO	Stopped listening on port 62987
+1589936043820	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofile98EoGw"
+1589936044468	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589936044776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589936044776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589936044776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589936044776	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589936046980	Marionette	INFO	Listening on port 63172
+1589936047016	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=632baf7f-8365-6007-0d42-33e4c0627909, line 1: SyntaxError: expected expression, got '<'
+1589936131446	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileYwzPuX"
+1589936132186	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589936132569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589936132569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589936132569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589936132569	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589936134813	Marionette	INFO	Listening on port 63338
+1589936134852	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=3083d327-b696-ab19-6735-9872f935e6de, line 1: SyntaxError: expected expression, got '<'
+1589936266327	Marionette	INFO	Stopped listening on port 63172
+1589936639731	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileoPF3LZ"
+1589936641128	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589936642129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589936642129	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589936642130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589936642130	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589936647826	Marionette	INFO	Listening on port 63550
+1589936647885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=37bda327-0e97-3f97-4cf2-5fc148122e0a, line 1: SyntaxError: expected expression, got '<'
+1589936699489	Marionette	INFO	Stopped listening on port 63550
+1589936705643	Marionette	INFO	Stopped listening on port 63338
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1589936751353	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofilevX3Khx"
+1589936752311	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589936752865	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589936752866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589936752866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589936752866	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589936757930	Marionette	INFO	Listening on port 63779
+1589936758001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=0542cafe-2c60-fcf8-d1f6-d1f8e7691738, line 1: SyntaxError: expected expression, got '<'
+1589936857271	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofile62Pc2u"
+1589936858139	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589936858733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589936858733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589936858734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589936858734	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589936862993	Marionette	INFO	Stopped listening on port 63779
+1589936863759	Marionette	INFO	Listening on port 63966
+1589936863847	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=93636e1f-e638-c10a-17aa-a04df2a104a6, line 1: SyntaxError: expected expression, got '<'
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1589937046773	Marionette	INFO	Stopped listening on port 63966
+1589937127551	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/kz/v015z_954f54v0v7p9v99bch0000gn/T/rust_mozprofileLUSbJ1"
+1589937128456	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1589937129011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1589937129011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1589937129012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1589937129012	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1589937133736	Marionette	INFO	Listening on port 64263
+1589937133900	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://loadus.exelator.com/load/?p=204&g=95&j=d&buid=f02ea66e-046c-36d2-3320-833c95b097c2, line 1: SyntaxError: expected expression, got '<'
+1589937159127	Marionette	INFO	Stopped listening on port 64263
