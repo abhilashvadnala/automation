@@ -1,6 +1,6 @@
 {
-    "driver_path":"C:\\Users\\mapka\\Downloads\\softs\\chromedriver.exe",
-    "email" : "karthik.munipalle21@gmail.com",
-    "password":"Luffy@1997" 
+    "driver_path":"<enter path to driver>",
+    "email" : "<email>",
+    "password":"<password>" 
 
 }
