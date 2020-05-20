@@ -2,13 +2,32 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
-from pathlib import Path
 from getpass import getpass
+from pathlib import Path
+import os
+import json
+
+driver_path = ''
+email = ''
+password = ''
+
+def json_parse(path = "configs.json"):
+    global driver_path
+    global email
+    global password
+    d = json.load(open (Path.joinpath(Path.cwd(),path),"r",encoding="utf-8"))
+    for x in d.values():
+        if x.startswith('<'):
+            print("ERROR : Please fill in all the values of config file\n")
+            exit(0)
+    driver_path,email,password = d.values()
+         
+
+json_parse()
+
+print(f"driver-path: {driver_path}")
 
 
-core_folder = Path.joinpath(Path.home(),"Downloads","softs") # change this to the location where your chromedriver.exe is
-print(core_folder)
-driver_path = Path.joinpath(core_folder,"chromedriver.exe")
 
 """
 After the browser pops up...you need to enter your email and password from command line on prompt
@@ -22,14 +41,14 @@ options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
-driver = webdriver.Chrome(options=options, executable_path=str(driver_path))
+driver = webdriver.Chrome(options=options, executable_path=str(Path(driver_path)))
 driver.get("https://www.coursera.org/?authMode=login")
 try:
 
     email_ele = driver.find_element_by_xpath("//input[@type='email']")
-    email_ele.send_keys(input("Email: "))
+    email_ele.send_keys(email)
     pass_ele = driver.find_element_by_xpath("//input[@type='password']")
-    pass_ele.send_keys(getpass("Password: "))
+    pass_ele.send_keys(password)
     driver.find_element_by_xpath("//span[contains(text(),'Log in')]").click()
 except Exception as e:
     print(f"{e}")
