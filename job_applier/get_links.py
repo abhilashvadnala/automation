@@ -5,10 +5,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from getpass import getpass
 from pathlib import Path
 from bs4 import BeautifulSoup
+from urllib.request import Request,urlopen
+from tqdm import tqdm
 import os
 import json
 import re
 import time
+
 
 
 
@@ -59,16 +62,31 @@ def login(driver,changed_url,wait):
     return 
 
 def process_links(links):
-    changed_links = []
-    for link in links:
-        link.replace("GD_JOB_AD","GD_JOB_VIEW")
+    changed_links = {'easy_apply':[],'other':[]}
+    for link in tqdm(links):
+        link = link.replace("GD_JOB_AD","GD_JOB_VIEW")
 
         if link[0] == '/':
             link = f"https://glassdoor.com{link}"
         
-        changed_links.append(link)
+        # changed_links.append(link)
     
-    # user_agent = 'Mozilla 5.0/'
+        user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 Edg/83.0.478.45'
+        header = {'user-agent':f'{user_agent}',}
+        request = Request(link,None,header)
+
+        try:
+            res = urlopen(request)
+            actual_link = res.geturl()
+            # print(actual_link)
+            if "glassdoor" in actual_link:
+                changed_links['easy_apply'].append(actual_link)
+            else:
+                changed_links['other'].append(actual_link)
+        except Exception as e:
+            print(f"ERROR: problem with link: {link}\n {e}\n")
+            
+
 
     return changed_links
 
@@ -106,10 +124,17 @@ def get_urls(driver):
 
         changed_links = process_links(links)
 
-        print(f"len of changed links{len(changed_links)}")
+        print(f"len of changed links: {len(changed_links)}")
         print("************ ALL LINKS *************\n\n")
-        print(*changed_links,sep="\n\n\n")
+        print(f'Easy-apply count: {len(changed_links["easy_apply"])}\n\n')
+        print("\n\n*********************EASY APPLY LINKS*****************")
+        print(*changed_links['easy_apply'],sep="\n\n")
 
+        print(f'Other count: {len(changed_links["other"])}\n\n')
+        print("\n\n*********************OTHER LINKS*****************")
+        print(*changed_links['other'],sep="\n\n")
+
+        
 
     except Exception as e:
         print(f"{e}")
